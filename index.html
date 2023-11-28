@@ -2,6 +2,10 @@
 <html>
 <head>
   <style>
+    .body-wrapper {
+      display: flex;
+      align-items: center;
+    }
     .body-container {
       display: flex;
       flex-direction: column;
@@ -9,7 +13,17 @@
       width: 35%;
     }
 
+    .title {
+      font-size: 48px;
+      margin: 16px 0 4px 0;
+    }
+    .date {
+      font-size: 18px;
+      margin: 0 0 32px 0;
+    }
+
     .dish-name {
+      font-size: 18px;
       margin: 0 0 8px 0;
     }
     .dish-description {
@@ -19,12 +33,14 @@
 </head>
 <body>
 
-<div class="body-container">
-  <h1>Menu</h1>
-  <p>12.03.2023</p>
+<div class="body-wrapper">
+  <div class="body-container">
+    <p class="title">Menu</p>
+    <p>12.03.2023</p>
 
-  <p class="dish-name">Bread</p>
-  <p class="dish-description">Fresh sourdough with garlic confit butter</p>
+    <p class="dish-name">Bread</p>
+    <p class="dish-description">Fresh sourdough with garlic confit butter</p>
+  </div>
 </div>
 
 </body>
