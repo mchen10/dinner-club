@@ -13,6 +13,17 @@
     html, body {
       height: 100%;
     }
+    a {
+      text-decoration: none;
+      font-family: 'Raleway';
+    }
+    a:visited {
+      color: #000000;
+    }
+    a:hover {
+      color: #A27A4A;
+    }
+
 
     .body-wrapper {
       display: flex;
@@ -29,7 +40,7 @@
 
     .nav-container {
       position: absolute;
-      top: 0;
+      top: 15%;
       left: 0;
       padding-left: 3em;
       height: 100%;
@@ -37,19 +48,12 @@
     nav {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       height: 100%;
     }
-    .nav-link {
-      text-decoration: none;
-      font-family: 'Raleway';
-    }
-    .nav-link:visited {
-      color: #000000;
-    }
-    .nav-link:hover {
-      color: #A27A4A;
+    .nav-title {
+      padding-bottom: 2em;
     }
 
     .title {
@@ -86,8 +90,8 @@
 
 <div class="nav-container">
   <nav>
-    <a href="./index.html" class="nav-link">Home</a>
-    <a href="./dec-3-dinner.html" class="nav-link">12.03.2023</a>
+    <a href="./index.html" class="nav-title">Home</a>
+    <a href="./dec-3-dinner.html">12.03.2023</a>
   </nav>
 </div>
 
