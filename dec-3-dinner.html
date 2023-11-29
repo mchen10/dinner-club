@@ -21,6 +21,25 @@
       width: 35%;
     }
 
+    .nav-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-left: 3em;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .nav-link {
+      text-decoration: none;
+    }
+    .nav-link:visited {
+      color: #A27A4A;
+    }
+
     .title {
       font-size: 2rem;
       margin: 2em 0 0.2em 0;
@@ -81,6 +100,13 @@
     <p class="dish-name">Bread</p>
     <p class="dish-description">Fresh sourdough with garlic confit butter</p>
   </div>
+</div>
+
+<div class="nav-container">
+  <nav>
+    <a href="./index.html" class="nav-link">Home</a>
+    <a href="./dec-3-dinner.html" class="nav-link">12.03.2023</a>
+  </nav>
 </div>
 
 </body>
