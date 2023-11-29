@@ -27,21 +27,37 @@
       width: 35%;
     }
 
+    .nav-container {
+      position: absolute;
+      left: 0;
+      padding-left: 1em;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
     .title {
       font-size: 4rem;
-      margin: 0 0 0.2em 0;
+      margin: 0 0 0.1em 0;
+      font-family: 'Raleway';
     }
     .subtitle {
       font-size: 2rem;
+      font-family: 'Raleway';
     }
 
     @media all and (max-width: 1000px) {
       .title {
         font-size: 8rem;
         margin: 0 0 0.5em 0;
+        font-family: 'Raleway';
       }
       .subtitle {
         font-size: 6rem;
+        font-family: 'Raleway';
       }
     }
   </style>
@@ -52,8 +68,11 @@
   <div class="body-container">
     <p class="title">Dinner Parties</p>
     <p class="subtitle">Hosted by Rachel and Michael</p>
-    <nav><a href="./dec-3-dinner.html">12.03.2023</a></nav>
   </div>
+</div>
+
+<div class="nav-container">
+  <nav><a href="./dec-3-dinner.html">12.03.2023</a></nav>
 </div>
 
 </body>
