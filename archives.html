@@ -66,7 +66,7 @@
     }
     .date {
       font-size: 1rem;
-      margin: 0 0 4em 0;
+      margin: 0 0 2em 0;
       font-family: 'Raleway-Thin';
     }
 
@@ -79,6 +79,12 @@
       font-size: 0.9rem;
       margin: 0 0 3em 0;
       font-family: 'Raleway-Thin';
+    }
+
+    .horizontal-photo-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
     }
 
     @media all and (max-width: 1000px) {
@@ -119,7 +125,11 @@
 <div class="body-wrapper">
   <div class="body-container">
     <p class="title">Archives</p>
+
+
     <p class="date">12.03.2023</p>
+
+    <img src="photos/dec-3/2.jpg" style="width: 500px;padding-bottom: 2em;" />
 
     <p class="dish-name">Bread</p>
     <p class="dish-description">Fresh brioche with honey whipped butter</p>
@@ -133,10 +143,10 @@
     <p class="dish-name">Dessert</p>
     <p class="dish-description">Fresh fruits with ice cream</p>
 
-    <img src="photos/dec-3/1.jpg" >
-    <img src="photos/dec-3/2.jpg" >
-    <img src="photos/dec-3/3.jpg" >
-    <img src="photos/dec-3/4.jpg" >
+    <div>
+      <img src="photos/dec-3/3.jpg" style="width: 200px;margin-right: 0.5em;" />
+      <img src="photos/dec-3/4.jpg" style="width: 200px;" />
+    </div>
 
   </div>
 </div>
