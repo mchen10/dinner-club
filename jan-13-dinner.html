@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @font-face {
+        font-family: 'Raleway';
+        src: url('Raleway-SemiBold.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Raleway-Thin';
+        src: url('Raleway-Thin.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Gallient';
+        src: url('Gallient.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
+    }
+
+    html, body {
+      background-color: #FCF5E5;
+    }
+    a {
+      color: #000000;
+      text-decoration: none;
+      font-family: 'Raleway';
+    }
+    a:visited {
+      color: #000000;
+    }
+    a:hover {
+      color: #606F49;
+    }
+
+    .body-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+    .body-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 35%;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      height: 100%;
+    }
+    .nav-title {
+      padding-bottom: 2em;
+    }
+
+    .title {
+      font-size: 2rem;
+      margin: 2em 0 0.2em 0;
+      font-family: 'Gallient';
+      color: #606F49;
+    }
+    .date {
+      font-size: 1rem;
+      margin: 0 0 4em 0;
+      font-family: 'Raleway-Thin';
+    }
+
+    .dish-name {
+      font-size: 1.15rem;
+      margin: 0 0 0.5em 0;
+      font-family: 'Raleway';
+    }
+    .dish-description {
+      font-size: 0.9rem;
+      margin: 0 0 3em 0;
+      font-family: 'Raleway-Thin';
+    }
+
+    @media all and (max-width: 1000px) {
+      .body-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 65%;
+      }
+
+      .title {
+        font-size: 6rem;
+        margin: 2em 0 0.2em 0;
+        font-family: 'Gallient';
+        color: #606F49;
+      }
+      .date {
+        font-size: 3rem;
+        margin: 0 0 4em 0;
+        font-family: 'Raleway-Thin';
+      }
+
+      .dish-name {
+        font-size: 3.3rem;
+        margin: 0 0 0.5em 0;
+        font-family: 'Raleway';
+      }
+      .dish-description {
+        font-size: 2.7rem;
+        margin: 0 0 1.5em 0;
+        font-family: 'Raleway-Thin';
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="body-wrapper">
+  <div class="body-container">
+    <p class="title">Menu</p>
+    <p class="date">01.13.2024</p>
+
+    <p class="dish-name">Banchan - 반찬</p>
+    <p class="dish-description">Assorted side dishes</p>
+
+    <p class="dish-name">Haemuljeon - 해물전</p>
+    <p class="dish-description">Seafood scallion pancake</p>
+
+    <p class="dish-name">Soondubu Jjigae - 순두부찌개</p>
+    <p class="dish-description">Spicy tofu stew with pork belly</p>
+
+    <p class="dish-name">Yangnyeom Gejang - 양념게장</p>
+    <p class="dish-description">Raw marinated crab</p>
+
+    <p class="dish-name">Injeolmi - 인절미</p>
+    <p class="dish-description">Fresh mochi with roasted soybean powder</p>
+  </div>
+</div>
+
+</body>
+</html>
